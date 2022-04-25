@@ -56,7 +56,7 @@ public class ArabaBilgileriClass {
 
     }
 
-    public static void arabalar() {
+    public static void arabalar() throws InterruptedException {
 
         AracKiralama opelBenzinliManuel = new AracKiralama("Opel", "Vectra", "Benzin", "Manuel", 100);
         AracKiralama opelDizelManuel = new AracKiralama("Opel", "Vectra", "Dizel", "Manuel", 150);
@@ -80,7 +80,7 @@ public class ArabaBilgileriClass {
         System.out.println("\n Lutfen talep ettiginiz aracin numarasini giriniz : \n1 : Opel Benzin Manuel " +
                 "\n2 : Opel Dizel Manuel \n3 : Opel Benzinli Otomatik \n4 : Opel Dizel otomatik" +
                 "\n5 : Ford Dizel Otomatik" + "\n6 : Ford Benzin Manuel\n7 : Honda Dizel Otomatik" +
-                "\n8 : Honda Benzinli Manuel \n9 : cikis ");
+                "\n8 : Honda Benzinli Manuel \n9 : Cikis ");
 
 
         int secim = 0;

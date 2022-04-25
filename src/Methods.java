@@ -4,7 +4,7 @@ public class Methods {
 
     static Scanner scan=new Scanner(System.in);
 
-    public static void islemeDevamDongusu() {
+    public static void islemeDevamDongusu() throws InterruptedException {
 
         System.out.println("Isleme devam etmek istiyorsaniz E bitirmek istiyorsaniz H yaziniz...");
         char ch = scan.next().toUpperCase().charAt(0);
@@ -25,4 +25,6 @@ public class Methods {
         System.out.println("Tesekkur ederiz.. Yine bekleriz... Hayirli yolculuklar");
 
     }
+
+
 }
