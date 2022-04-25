@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ArabaBilgileriClass {
 
     static List<AracKiralama> aracTalebiList = new ArrayList<>();
-    static Scanner scan=new Scanner(System.in);
+    static Scanner scan = new Scanner(System.in);
     static int toplamGun;
 
     public static void aracTalep() {
@@ -85,7 +85,7 @@ public class ArabaBilgileriClass {
 
         int secim = 0;
 
-        while(true) {
+        while (true) {
 
             try {
                 secim = scan.nextInt();
@@ -220,4 +220,4 @@ public class ArabaBilgileriClass {
 
     }
 
-    }
+}

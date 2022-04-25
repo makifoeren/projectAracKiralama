@@ -10,7 +10,7 @@ public class Methods {
         char ch = scan.next().toUpperCase().charAt(0);
 
         if (ch == 'E') {
-           // MusteruBilgileriClass.musteriBilgisi();
+           MusteruBilgileriClass.musteriBilgisi();
 
         } else if (ch == 'H') {
             ArabaBilgileriClass.arabalar();
